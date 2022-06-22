@@ -5,7 +5,7 @@ export default function VideoComponent() {
     return(
         <div className="w-full px-4 sm:px-10 flex-col space-y-4" id="videos">
             <div className="text-3xl sm:text-6xl text-white w-full text-center font-semibold">Vid<span className="text-amber-500">eos</span></div>
-            <div className="sm:grid md:grid-cols-2 xl:grid-cols-3 gap-4 3xl:flex flex-wrap justify-center mt-10">
+            <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-4 3xl:flex flex-wrap justify-center mt-10">
                 <Link href="https://www.youtube.com/watch?v=lfuMWWElxuo">
                     <a target="_blank">
                         <div className="flex-col bg-black">
