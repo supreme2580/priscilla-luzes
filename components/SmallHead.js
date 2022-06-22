@@ -23,7 +23,7 @@ export default function SmallHead() {
                 <div className="text-white text-2xl h-full w-full grid place-items-center">
                     <div className="flex-col text-center space-y-10">
                         <div className="hover:text-amber-500" onClick={toggleMobileMenu}><Link href="#bio"><a>Bio</a></Link></div>
-                        <div className="hover:text-amber-500" onClick={toggleMobileMenu}><Link href="/"><a>Video</a></Link></div>
+                        <div className="hover:text-amber-500" onClick={toggleMobileMenu}><Link href="#videos"><a>Video</a></Link></div>
                         <div className="hover:text-amber-500" onClick={toggleMobileMenu}><Link href="/"><a>Photos</a></Link></div>
                         <div className="hover:text-amber-500" onClick={toggleMobileMenu}><Link href="/"><a>Contact</a></Link></div>
                     </div>

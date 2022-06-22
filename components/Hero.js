@@ -8,7 +8,7 @@ export default function Hero() {
                     <div className="text-white text-3xl text-amber-500 font-semibold">Priscilla <span className="text-white">Luiz</span></div>
                     <div className="flex space-x-6 text-white text-lg">
                         <div className="hover:text-amber-500"><Link href="#bio"><a>Bio</a></Link></div>
-                        <div className="hover:text-amber-500"><Link href="/"><a>Video</a></Link></div>
+                        <div className="hover:text-amber-500"><Link href="#videos"><a>Video</a></Link></div>
                         <div className="hover:text-amber-500"><Link href="/"><a>Photos</a></Link></div>
                         <div className="hover:text-amber-500"><Link href="/"><a>Contact</a></Link></div>
                     </div>
