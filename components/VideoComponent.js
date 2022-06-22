@@ -19,16 +19,16 @@ export default function VideoComponent() {
                     </a>
                 </Link>
                 <Link href="https://www.youtube.com/watch?v=k1LgOyxxMcs">
-                <div className="flex-col bg-black">
                     <a target="_blank">
-                        <Image
-                            src="https://i.ytimg.com/vi/k1LgOyxxMcs/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBSaM61o8u3C_OYwkoemFm8CoWamA"
-                            layout="responsive"
-                            width={1920}
-                            height={1080} />
+                        <div className="flex-col bg-black">
+                            <Image
+                                src="https://i.ytimg.com/vi/k1LgOyxxMcs/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBSaM61o8u3C_OYwkoemFm8CoWamA"
+                                layout="responsive"
+                                width={1920}
+                                height={1080} />
                             <div className="text-white text-lg font-semibold text-center">Can I Sing Poor Unfortunate Souls???</div>
+                        </div>
                     </a>
-                </div>
                 </Link>
                 <Link href="https://www.youtube.com/watch?v=C2tBOm9TU1k">
                     <a target="_blank">
